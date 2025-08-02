@@ -1,0 +1,13 @@
+# config/constants.py
+
+# RPC / Network Config
+ARBITRUM_RPC = "https://arb-mainnet.g.alchemy.com/v2/YOUR_API_KEY"
+CHAIN_ID = 42161
+
+# Camelot-specific contracts (placeholders)
+CAMELOT_ROUTER = "0x0000000000000000000000000000000000000000"
+CAMELOT_FACTORY = "0x0000000000000000000000000000000000000000"
+
+# Slippage and gas config
+DEFAULT_SLIPPAGE = 0.005  # 0.5%
+GAS_LIMIT = 500_000
