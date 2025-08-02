@@ -1,0 +1,13 @@
+# run.py
+
+from bot.camelot_bot import CamelotBot
+
+def main():
+    print("✨ Starting Camelot VibeBot...")
+
+    # create and run the bot
+    bot = CamelotBot()
+    bot.run()
+
+if __name__ == "__main__":
+    main()
