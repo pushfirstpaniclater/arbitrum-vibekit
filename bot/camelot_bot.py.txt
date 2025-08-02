@@ -1,0 +1,19 @@
+# bot/camelot_bot.py
+
+import time
+
+class CamelotBot:
+    def __init__(self):
+        print("🔧 Initializing CamelotBot...")
+        # Placeholder for config, wallet, RPC, etc.
+        self.running = True
+
+    def run(self):
+        print("🚀 CamelotBot is now running...")
+        try:
+            while self.running:
+                # You would plug in liquidity checks, trade logic, etc. here
+                print("🤖 polling for opportunities...")
+                time.sleep(5)
+        except KeyboardInterrupt:
+            print("🛑 Bot stopped manually.")
